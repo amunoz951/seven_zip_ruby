@@ -4,11 +4,11 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'seven_zip_ruby/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "seven_zip_ruby"
+  spec.name          = "seven_zip_ruby_am"
   spec.version       = SevenZipRuby::VERSION
   spec.authors       = ["Masamitsu MURASE"]
   spec.email         = ["masamitsu.murase@gmail.com"]
-  spec.description   = %q{SevenZipRuby (seven_zip_ruby) is a ruby gem library to read and write 7zip archives. This gem library calls official 7z.dll internally.}
+  spec.description   = %q{SevenZipRuby (seven_zip_ruby_am) is a ruby gem library to read and write 7zip archives. This gem library calls official 7z.dll internally. This gem is the current code on the github repo as of May 2, 2019 which does not have the <2.4 restriction.}
   spec.summary       = %q{This is a ruby gem library to read and write 7zip files.}
   spec.homepage      = "https://github.com/masamitsu-murase/seven_zip_ruby"
   spec.license       = "LGPL + unRAR"
