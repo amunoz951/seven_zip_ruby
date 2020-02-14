@@ -8,7 +8,7 @@ matrix:
     - rvm: "rbx-2.2.7"
     - rvm: "ruby-head"
   include:
-    - rvm: 2.5.5
+    - rvm: 2.5
       os: osx
       osx_image: xcode7.3
 notifications:
