@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = SevenZipRuby::VERSION
   spec.authors       = ["Masamitsu MURASE"]
   spec.email         = ["masamitsu.murase@gmail.com"]
-  spec.description   = %q{SevenZipRuby (seven_zip_ruby_am) is a ruby gem library to read and write 7zip archives. This gem library calls official 7z.dll internally. This gem is the current code on the github repo as of May 2, 2019 which does not have the <2.4 restriction.}
+  spec.description   = %q{SevenZipRuby (seven_zip_ruby_am) is a ruby gem library to read and write 7zip archives. This gem library calls official 7z.dll internally. This is a fork that does not have the <2.4 restriction branching off of commit 5ff474204e752dfffb0e417be50a88e866a6ccc4.}
   spec.summary       = %q{This is a ruby gem library to read and write 7zip files.}
-  spec.homepage      = "https://github.com/masamitsu-murase/seven_zip_ruby"
+  spec.homepage      = "https://github.com/amunoz951/seven_zip_ruby"
   spec.license       = "LGPL + unRAR"
 
   spec.files         = `git ls-files`.split($/).select{ |i| !(i.start_with?("pkg") || i.start_with?("resources")) }
